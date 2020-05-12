@@ -29,7 +29,7 @@ public class ScriptActionGetGuiName extends ScriptAction  {
         if (player.openContainer instanceof ContainerChest) {
             ContainerChest chest = (ContainerChest)player.openContainer;
             IInventory inv = chest.getLowerChestInventory();
-            String chestName = inv.getDisplayName().toString();
+            String chestName = inv.getDisplayName().getFormattedText();
             provider.setVariable(macro,params[0],chestName);
         }
 

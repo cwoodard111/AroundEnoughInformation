@@ -7,6 +7,7 @@ Rename field net/minecraft/entity/player/EntityPlayer/openContainer[1168,1181]::
 Rename field net/minecraft/entity/player/EntityPlayer/openContainer[1271,1284]::openContainer->field_71070_bA
 Rename method net/minecraft/inventory/ContainerChest/getLowerChestInventory ()Lnet/minecraft/inventory/IInventory;[1323,1345]::getLowerChestInventory->func_85151_d
 Rename method net/minecraft/world/IWorldNameable/getDisplayName ()Lnet/minecraft/util/text/ITextComponent;[1375,1389]::getDisplayName->func_145748_c_
+Rename method net/minecraft/util/text/ITextComponent/getFormattedText ()Ljava/lang/String;[1392,1408]::getFormattedText->func_150254_d
 Import: net.eq2online.macros.scripting.api.*
 Import: net.eq2online.macros.scripting.parser.ScriptAction
 Import: net.eq2online.macros.scripting.parser.ScriptContext

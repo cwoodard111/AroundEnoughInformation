@@ -2,7 +2,7 @@ Unsupposrted library path: D:\extraActions\build\classes\java\api
 Unsupposrted library path: D:\extraActions\build\resources\api
 Symbol range map extraction starting
 Processing 3 files
-startProcessing "com/itzblaze/ScriptActionGetGuiName.java" md5: 096ac383bfd80f0c7c1cacad676b3bd3
+startProcessing "com/itzblaze/ScriptActionGetGuiName.java" md5: 7598b18c6a503de598d7e613bed1a11b
 @|com/itzblaze/ScriptActionGetGuiName.java|8|20|com.itzblaze|package|com.itzblaze|(file)
 Class Start: com.itzblaze.ScriptActionGetGuiName
    @|com/itzblaze/ScriptActionGetGuiName.java|692|702|APIVersion|class|net.eq2online.macros.scripting.api.APIVersion|false
@@ -42,18 +42,18 @@ Class Start: com.itzblaze.ScriptActionGetGuiName
       @|com/itzblaze/ScriptActionGetGuiName.java|1314|1336|getLowerChestInventory|method|net.minecraft.inventory.ContainerChest|getLowerChestInventory|()Lnet/minecraft/inventory/IInventory;
       @|com/itzblaze/ScriptActionGetGuiName.java|1353|1359|String|class|java.lang.String|false
       @|com/itzblaze/ScriptActionGetGuiName.java|1376|1390|getDisplayName|method|net.minecraft.world.IWorldNameable|getDisplayName|()Lnet/minecraft/util/text/ITextComponent;
-      @|com/itzblaze/ScriptActionGetGuiName.java|1393|1401|toString|method|java.lang.Object|toString|()Ljava/lang/String;
-      @|com/itzblaze/ScriptActionGetGuiName.java|1418|1426|provider|param|com.itzblaze.ScriptActionGetGuiName|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|provider|0
-      @|com/itzblaze/ScriptActionGetGuiName.java|1427|1438|setVariable|method|net.eq2online.macros.scripting.api.IScriptActionProvider|setVariable|(Lnet/eq2online/macros/scripting/api/IMacro;Ljava/lang/String;Ljava/lang/String;)V
-      @|com/itzblaze/ScriptActionGetGuiName.java|1439|1444|macro|param|com.itzblaze.ScriptActionGetGuiName|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|macro|1
-      @|com/itzblaze/ScriptActionGetGuiName.java|1445|1451|params|param|com.itzblaze.ScriptActionGetGuiName|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|params|4
+      @|com/itzblaze/ScriptActionGetGuiName.java|1393|1409|getFormattedText|method|net.minecraft.util.text.ITextComponent|getFormattedText|()Ljava/lang/String;
+      @|com/itzblaze/ScriptActionGetGuiName.java|1426|1434|provider|param|com.itzblaze.ScriptActionGetGuiName|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|provider|0
+      @|com/itzblaze/ScriptActionGetGuiName.java|1435|1446|setVariable|method|net.eq2online.macros.scripting.api.IScriptActionProvider|setVariable|(Lnet/eq2online/macros/scripting/api/IMacro;Ljava/lang/String;Ljava/lang/String;)V
+      @|com/itzblaze/ScriptActionGetGuiName.java|1447|1452|macro|param|com.itzblaze.ScriptActionGetGuiName|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|macro|1
+      @|com/itzblaze/ScriptActionGetGuiName.java|1453|1459|params|param|com.itzblaze.ScriptActionGetGuiName|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|params|4
    Method End: execute(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;
    Method Start: onInit()V
-      @|com/itzblaze/ScriptActionGetGuiName.java|1515|1523|Override|class|java.lang.Override|false
-      @|com/itzblaze/ScriptActionGetGuiName.java|1541|1547|onInit|method|net.eq2online.macros.scripting.api.IMacrosAPIModule|onInit|()V
-      @|com/itzblaze/ScriptActionGetGuiName.java|1568|1575|context|field|net.eq2online.macros.scripting.ScriptActionBase|context
-      @|com/itzblaze/ScriptActionGetGuiName.java|1576|1583|getCore|method|net.eq2online.macros.scripting.parser.ScriptContext|getCore|()Lnet/eq2online/macros/scripting/parser/ScriptCore;
-      @|com/itzblaze/ScriptActionGetGuiName.java|1586|1606|registerScriptAction|method|net.eq2online.macros.scripting.parser.ScriptCore|registerScriptAction|(Lnet/eq2online/macros/scripting/api/IScriptAction;)V
+      @|com/itzblaze/ScriptActionGetGuiName.java|1523|1531|Override|class|java.lang.Override|false
+      @|com/itzblaze/ScriptActionGetGuiName.java|1549|1555|onInit|method|net.eq2online.macros.scripting.api.IMacrosAPIModule|onInit|()V
+      @|com/itzblaze/ScriptActionGetGuiName.java|1576|1583|context|field|net.eq2online.macros.scripting.ScriptActionBase|context
+      @|com/itzblaze/ScriptActionGetGuiName.java|1584|1591|getCore|method|net.eq2online.macros.scripting.parser.ScriptContext|getCore|()Lnet/eq2online/macros/scripting/parser/ScriptCore;
+      @|com/itzblaze/ScriptActionGetGuiName.java|1594|1614|registerScriptAction|method|net.eq2online.macros.scripting.parser.ScriptCore|registerScriptAction|(Lnet/eq2online/macros/scripting/api/IScriptAction;)V
    Method End: onInit()V
 Class End  : com.itzblaze.ScriptActionGetGuiName
 endProcessing "com/itzblaze/ScriptActionGetGuiName.java"

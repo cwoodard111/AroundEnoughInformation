@@ -20,19 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8cdeca1-9e9f-4516-97c2-35167283d510" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/fileContent/annotation-processors.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/retromapping/replacedMain.rangemap" beforeDir="false" afterPath="$PROJECT_DIR$/build/retromapping/replacedMain.rangemap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/retromapping/retromappedReplacedMain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/retromapping/retromappedReplacedMain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/taskLogs/extractRangemapReplacedMain.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/taskLogs/extractRangemapReplacedMain.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/taskLogs/retromapReplacedMain.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/taskLogs/retromapReplacedMain.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itzblaze/ScriptActionGetGuiName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itzblaze/ScriptActionGetGuiName.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -268,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589324850439</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added ScriptActionGetGuiName.java">
+      <created>1589326031618</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589326031618</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +286,8 @@
     <MESSAGE value="added VariableProviderCheck.java" />
     <MESSAGE value="added ScriptActionGetGuiName.java -- EXPERMIMENTAL" />
     <MESSAGE value="added VariableProviderEnabled.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="added VariableProviderEnabled.java" />
+    <MESSAGE value="added ScriptActionGetGuiName.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ScriptActionGetGuiName.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="147" key="#ExampleModule_[runClient]" timestamp="1588192175824">
@@ -314,30 +310,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="405" width="412" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588209032967" />
-    <state x="587" y="98" key="CommitChangelistDialog2" timestamp="1589324848667">
+    <state x="587" y="98" key="CommitChangelistDialog2" timestamp="1589326029484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="98" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589324848667" />
+    <state x="587" y="98" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589326029484" />
     <state x="761" y="342" key="FileChooserDialogImpl" timestamp="1588185485880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="342" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588185485880" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1589325895705">
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1589326005125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589325895705" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1589325895705">
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589326005125" />
+    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1589326005125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589325895705" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1589325895705">
+    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589326005125" />
+    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1589326005125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589325895705" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1589325895705">
+    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589326005125" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1589326005125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589325895705" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589326005125" />
     <state x="712" y="240" key="RollbackChangesDialog" timestamp="1589321654718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
