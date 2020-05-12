@@ -1,10 +1,11 @@
 # AroundEnoughInformation
-documentation
 
-Actions:
+<h2>Documentation</h2>
+
+<h3>Actions</h3>
 
 GETITEMINFO(<slot>,[&idvar],[#stacksize],[#datavar],[&display])
 
-Variables:
-<h1>test</h1>
+<h3>Variables</h3>
+
 %AEI%
