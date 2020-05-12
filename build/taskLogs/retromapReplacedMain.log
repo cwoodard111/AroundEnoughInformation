@@ -1,14 +1,24 @@
 Processing 3 files
 Start Processing: com/itzblaze/ScriptActionGetGuiName.java
 FOUND CONSTR method com/itzblaze/ScriptActionGetGuiName/ScriptActionGetGuiName ()V com/itzblaze/ScriptActionGetGuiName
-Rename method net/minecraft/world/IWorldNameable/getName ()Ljava/lang/String;[874,881]::getName->func_70005_c_
-Import: net.eq2online.macros.scripting.api.IMacro
-Import: net.eq2online.macros.scripting.api.IMacroAction
-Import: net.eq2online.macros.scripting.api.IReturnValue
-Import: net.eq2online.macros.scripting.api.IScriptActionProvider
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1118,1130]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[1133,1139]::player->field_71439_g
+Rename field net/minecraft/entity/player/EntityPlayer/openContainer[1168,1181]::openContainer->field_71070_bA
+Rename field net/minecraft/entity/player/EntityPlayer/openContainer[1271,1284]::openContainer->field_71070_bA
+Rename method net/minecraft/inventory/ContainerChest/getLowerChestInventory ()Lnet/minecraft/inventory/IInventory;[1323,1345]::getLowerChestInventory->func_85151_d
+Rename method net/minecraft/world/IWorldNameable/getDisplayName ()Lnet/minecraft/util/text/ITextComponent;[1375,1389]::getDisplayName->func_145748_c_
+Import: net.eq2online.macros.scripting.api.*
 Import: net.eq2online.macros.scripting.parser.ScriptAction
 Import: net.eq2online.macros.scripting.parser.ScriptContext
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.client.entity.EntityPlayerSP
+Import: net.minecraft.client.gui.GuiScreen
+Import: net.minecraft.client.gui.inventory.GuiContainer
+Import: net.minecraft.entity.player.InventoryPlayer
+Import: net.minecraft.inventory.ContainerChest
 Import: net.minecraft.inventory.IInventory
+Import: net.minecraft.inventory.InventoryHelper
+Import: net.minecraft.util.text.ITextComponent
 End  Processing: com/itzblaze/ScriptActionGetGuiName.java
 
 Start Processing: com/itzblaze/ScriptActionGetItemInfo.java
