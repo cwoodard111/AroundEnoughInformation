@@ -4,7 +4,7 @@
 
 <h3>Actions</h3>
 
-GETITEMINFO(<slot>,[&idvar],[#stacksize],[#datavar],[&display])
+GETITEMINFO(slot,[&idvar],[#stacksize],[#datavar],[&display])
 
 <h3>Variables</h3>
 
