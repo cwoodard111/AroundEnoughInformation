@@ -5,6 +5,7 @@ Rename method net/minecraft/item/ItemStack/getUnlocalizedName ()Ljava/lang/Strin
 Rename method net/minecraft/util/text/translation/I18n/translateToLocal (Ljava/lang/String;)Ljava/lang/String;[1501,1517]::translateToLocal->func_74838_a
 Rename method net/minecraft/item/ItemStack/getCount ()I[1572,1580]::getCount->func_190916_E
 Rename method net/minecraft/item/ItemStack/getDisplayName ()Ljava/lang/String;[1624,1638]::getDisplayName->func_82833_r
+Rename method net/minecraft/item/ItemStack/getMetadata ()I[1668,1679]::getMetadata->func_77960_j
 Import: baritone.BaritoneProvider
 Import: baritone.api.BaritoneAPI
 Import: baritone.api.pathing.goals.*

@@ -34,13 +34,15 @@ public class ScriptActionGetItemInfo extends ScriptAction {
         String itemname = I18n.translateToLocal(unlocalizedname + ".name");
         int itemcount = item.getCount();
         String itemdisplay = item.getDisplayName();
+        int datavar = item.getMetadata();
 
         /* here we are storing all of this information into player defined variables.
          */
 
         provider.setVariable(macro,params[1],itemname);
         provider.setVariable(macro,params[2],itemcount);
-        provider.setVariable(macro,params[3],itemdisplay);
+        provider.setVariable(macro,params[3],datavar);
+        provider.setVariable(macro,params[4],itemdisplay);
         return null;
     }
     @Override
