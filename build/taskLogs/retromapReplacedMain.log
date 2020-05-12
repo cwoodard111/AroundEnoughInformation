@@ -1,0 +1,24 @@
+Processing 1 files
+Start Processing: com/itzblaze/ScriptActionGetItemInfo.java
+FOUND CONSTR method com/itzblaze/ScriptActionGetItemInfo/ScriptActionGetItemInfo ()V com/itzblaze/ScriptActionGetItemInfo
+Rename method net/minecraft/item/ItemStack/getUnlocalizedName ()Ljava/lang/String;[1453,1471]::getUnlocalizedName->func_77977_a
+Rename method net/minecraft/util/text/translation/I18n/translateToLocal (Ljava/lang/String;)Ljava/lang/String;[1501,1517]::translateToLocal->func_74838_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[1572,1580]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/getDisplayName ()Ljava/lang/String;[1624,1638]::getDisplayName->func_82833_r
+Import: baritone.BaritoneProvider
+Import: baritone.api.BaritoneAPI
+Import: baritone.api.pathing.goals.*
+Import: net.eq2online.macros.core.settings.Setting
+Import: net.eq2online.macros.scripting.api.APIVersion
+Import: net.eq2online.macros.scripting.api.IMacro
+Import: net.eq2online.macros.scripting.api.IMacroAction
+Import: net.eq2online.macros.scripting.api.IReturnValue
+Import: net.eq2online.macros.scripting.api.IScriptActionProvider
+Import: net.eq2online.macros.scripting.parser.ScriptAction
+Import: net.eq2online.macros.scripting.parser.ScriptContext
+Import: net.eq2online.util.Util
+Import: net.minecraft.item.Item
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.util.text.translation.I18n
+End  Processing: com/itzblaze/ScriptActionGetItemInfo.java
+
