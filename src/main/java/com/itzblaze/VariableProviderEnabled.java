@@ -4,7 +4,7 @@ import net.eq2online.macros.scripting.api.IVariableProvider;
 import net.eq2online.macros.scripting.parser.ScriptContext;
 import net.eq2online.macros.scripting.variable.VariableCache;
 
-public class VariableProviderCheck extends VariableCache {
+public class VariableProviderEnabled extends VariableCache {
     @Override
     public Object getVariable(String variableName) {
         System.out.println("Start");

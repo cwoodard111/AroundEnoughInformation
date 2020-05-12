@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8cdeca1-9e9f-4516-97c2-35167283d510" name="Default Changelist" comment="added VariableProviderCheck">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itzblaze/VariableProviderEnabled.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.3/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -28,20 +29,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/module_extraActions-0.1-26.1-0.15.4-mc1.12.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/module_extraActions-0.1-26.1-0.15.4-mc1.12.1-sources.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/module_extraActions-0.1-26.1-0.15.4-mc1.12.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/module_extraActions-0.1-26.1-0.15.4-mc1.12.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/retromapping/replacedMain.rangemap" beforeDir="false" afterPath="$PROJECT_DIR$/build/retromapping/replacedMain.rangemap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/retromapping/retromappedReplacedMain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/retromapping/retromappedReplacedMain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/taskLogs/extractRangemapReplacedMain.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/taskLogs/extractRangemapReplacedMain.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/taskLogs/retromapReplacedMain.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/taskLogs/retromapReplacedMain.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/extractAnnotationsJar/input115348205332068710.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/extractAnnotationsJar/input2267828000507236839.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-default5414445779502944851.srg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-default688072732988237565.srg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-extraLines1956745764674314304.srg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/reobfJar/reobf-extraLines4836332604915877180.srg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itzblaze/VariableProviderCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itzblaze/VariableProviderTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589321616739</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added VariableProviderCheck">
+      <created>1589321714702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589321714702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,10 +273,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="147" key="#ExampleModule_[runClient]/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588192175824" />
-    <state x="440" y="94" key="#Project_Structure" timestamp="1589319682640">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1589321829737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589319682640" />
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589321829737" />
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1589319770885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -295,22 +293,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="342" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588185485880" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1589320107498">
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1589321763306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589320107498" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1589320107498">
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589321763306" />
+    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1589321763306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589320107498" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1589320107498">
+    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589321763306" />
+    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1589321763306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589320107498" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1589320107498">
+    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589321763306" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1589321763306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589320107498" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589321763306" />
     <state x="712" y="240" key="RollbackChangesDialog" timestamp="1589321654718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -327,16 +325,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588101275263" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/itzblaze/ScriptActionGetItemInfo.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
