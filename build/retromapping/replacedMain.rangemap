@@ -1,7 +1,7 @@
 Unsupposrted library path: D:\extraActions\build\classes\java\api
 Unsupposrted library path: D:\extraActions\build\resources\api
 Symbol range map extraction starting
-Processing 1 files
+Processing 2 files
 startProcessing "com/itzblaze/ScriptActionGetItemInfo.java" md5: ca344569aeeb6be485439d0e9413d35a
 @|com/itzblaze/ScriptActionGetItemInfo.java|8|20|com.itzblaze|package|com.itzblaze|(file)
 Class Start: com.itzblaze.ScriptActionGetItemInfo
@@ -75,4 +75,31 @@ Class Start: com.itzblaze.ScriptActionGetItemInfo
    Method End: onInit()V
 Class End  : com.itzblaze.ScriptActionGetItemInfo
 endProcessing "com/itzblaze/ScriptActionGetItemInfo.java"
+
+startProcessing "com/itzblaze/VariableProviderEnabled.java" md5: bcd26069c6b745cf7fe9d6e10b72f77a
+@|com/itzblaze/VariableProviderEnabled.java|8|20|com.itzblaze|package|com.itzblaze|(file)
+Class Start: com.itzblaze.VariableProviderEnabled
+   @|com/itzblaze/VariableProviderEnabled.java|226|249|VariableProviderEnabled|class|com.itzblaze.VariableProviderEnabled|false
+   @|com/itzblaze/VariableProviderEnabled.java|258|271|VariableCache|class|net.eq2online.macros.scripting.variable.VariableCache|false
+   Method Start: getVariable(Ljava/lang/String;)Ljava/lang/Object;
+      @|com/itzblaze/VariableProviderEnabled.java|327|339|variableName|param|com.itzblaze.VariableProviderEnabled|getVariable|(Ljava/lang/String;)Ljava/lang/Object;|variableName|0
+      @|com/itzblaze/VariableProviderEnabled.java|280|288|Override|class|java.lang.Override|false
+      @|com/itzblaze/VariableProviderEnabled.java|301|307|Object|class|java.lang.Object|false
+      @|com/itzblaze/VariableProviderEnabled.java|308|319|getVariable|method|net.eq2online.macros.scripting.api.IVariableProvider|getVariable|(Ljava/lang/String;)Ljava/lang/Object;
+      @|com/itzblaze/VariableProviderEnabled.java|320|326|String|class|java.lang.String|false
+      @|com/itzblaze/VariableProviderEnabled.java|352|358|System|class|java.lang.System|false
+      @|com/itzblaze/VariableProviderEnabled.java|359|362|out|field|java.lang.System|out
+      @|com/itzblaze/VariableProviderEnabled.java|363|370|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+   Method End: getVariable(Ljava/lang/String;)Ljava/lang/Object;
+   Method Start: onInit()V
+      @|com/itzblaze/VariableProviderEnabled.java|429|435|onInit|method|net.eq2online.macros.scripting.api.IMacrosAPIModule|onInit|()V
+      @|com/itzblaze/VariableProviderEnabled.java|449|462|storeVariable|method|net.eq2online.macros.scripting.variable.IVariableStore|storeVariable|(Ljava/lang/String;Z)V
+      @|com/itzblaze/VariableProviderEnabled.java|485|498|ScriptContext|class|net.eq2online.macros.scripting.parser.ScriptContext|false
+      @|com/itzblaze/VariableProviderEnabled.java|499|503|MAIN|field|net.eq2online.macros.scripting.parser.ScriptContext|MAIN
+      @|com/itzblaze/VariableProviderEnabled.java|504|511|getCore|method|net.eq2online.macros.scripting.parser.ScriptContext|getCore|()Lnet/eq2online/macros/scripting/parser/ScriptCore;
+      @|com/itzblaze/VariableProviderEnabled.java|514|538|registerVariableProvider|method|net.eq2online.macros.scripting.parser.ScriptCore|registerVariableProvider|(Lnet/eq2online/macros/scripting/api/IVariableProvider;)V
+      @|com/itzblaze/VariableProviderEnabled.java|540|557|IVariableProvider|class|net.eq2online.macros.scripting.api.IVariableProvider|false
+   Method End: onInit()V
+Class End  : com.itzblaze.VariableProviderEnabled
+endProcessing "com/itzblaze/VariableProviderEnabled.java"
 

@@ -1,4 +1,4 @@
-Processing 1 files
+Processing 2 files
 Start Processing: com/itzblaze/ScriptActionGetItemInfo.java
 FOUND CONSTR method com/itzblaze/ScriptActionGetItemInfo/ScriptActionGetItemInfo ()V com/itzblaze/ScriptActionGetItemInfo
 Rename method net/minecraft/item/ItemStack/getUnlocalizedName ()Ljava/lang/String;[1453,1471]::getUnlocalizedName->func_77977_a
@@ -22,4 +22,10 @@ Import: net.minecraft.item.Item
 Import: net.minecraft.item.ItemStack
 Import: net.minecraft.util.text.translation.I18n
 End  Processing: com/itzblaze/ScriptActionGetItemInfo.java
+
+Start Processing: com/itzblaze/VariableProviderEnabled.java
+Import: net.eq2online.macros.scripting.api.IVariableProvider
+Import: net.eq2online.macros.scripting.parser.ScriptContext
+Import: net.eq2online.macros.scripting.variable.VariableCache
+End  Processing: com/itzblaze/VariableProviderEnabled.java
 
