@@ -1,10 +1,13 @@
 Unsupposrted library path: D:\extraActions\build\classes\java\api
 Unsupposrted library path: D:\extraActions\build\resources\api
 Symbol range map extraction starting
-Processing 2 files
+Processing 3 files
+startProcessing "com/itzblaze/ScriptActionGetGuiName.java" md5: dd2a13042246f3115918d242ff58b6f0
+endProcessing "com/itzblaze/ScriptActionGetGuiName.java"
+
 startProcessing "com/itzblaze/ScriptActionGetItemInfo.java" md5: ca344569aeeb6be485439d0e9413d35a
 endProcessing "com/itzblaze/ScriptActionGetItemInfo.java"
 
-startProcessing "com/itzblaze/VariableProviderEnabled.java" md5: bcd26069c6b745cf7fe9d6e10b72f77a
+startProcessing "com/itzblaze/VariableProviderEnabled.java" md5: a217be7a807f4fec7c03d3000a896b00
 endProcessing "com/itzblaze/VariableProviderEnabled.java"
 

@@ -71,7 +71,7 @@ afterEvaluate {
     // Set the jar name up with the required prefix, and append information
     // about the API and Macros Mod version
     jar {
-        baseName = "module_" + "extraActions"
+        baseName = "module_" + "AboutEnoughInformation"
         classifier = "$apiVersion-$modVersion-" + jar.classifier
         extension = "jar"
     }

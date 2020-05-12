@@ -1,4 +1,16 @@
-Processing 2 files
+Processing 3 files
+Start Processing: com/itzblaze/ScriptActionGetGuiName.java
+FOUND CONSTR method com/itzblaze/ScriptActionGetGuiName/ScriptActionGetGuiName ()V com/itzblaze/ScriptActionGetGuiName
+Rename method net/minecraft/world/IWorldNameable/getName ()Ljava/lang/String;[874,881]::getName->func_70005_c_
+Import: net.eq2online.macros.scripting.api.IMacro
+Import: net.eq2online.macros.scripting.api.IMacroAction
+Import: net.eq2online.macros.scripting.api.IReturnValue
+Import: net.eq2online.macros.scripting.api.IScriptActionProvider
+Import: net.eq2online.macros.scripting.parser.ScriptAction
+Import: net.eq2online.macros.scripting.parser.ScriptContext
+Import: net.minecraft.inventory.IInventory
+End  Processing: com/itzblaze/ScriptActionGetGuiName.java
+
 Start Processing: com/itzblaze/ScriptActionGetItemInfo.java
 FOUND CONSTR method com/itzblaze/ScriptActionGetItemInfo/ScriptActionGetItemInfo ()V com/itzblaze/ScriptActionGetItemInfo
 Rename method net/minecraft/item/ItemStack/getUnlocalizedName ()Ljava/lang/String;[1453,1471]::getUnlocalizedName->func_77977_a
@@ -24,6 +36,7 @@ Import: net.minecraft.util.text.translation.I18n
 End  Processing: com/itzblaze/ScriptActionGetItemInfo.java
 
 Start Processing: com/itzblaze/VariableProviderEnabled.java
+Import: net.eq2online.macros.scripting.api.APIVersion
 Import: net.eq2online.macros.scripting.api.IVariableProvider
 Import: net.eq2online.macros.scripting.parser.ScriptContext
 Import: net.eq2online.macros.scripting.variable.VariableCache
