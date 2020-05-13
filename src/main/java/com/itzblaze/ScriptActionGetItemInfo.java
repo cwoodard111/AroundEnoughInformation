@@ -14,6 +14,7 @@ import net.eq2online.macros.scripting.parser.ScriptContext;
 import net.eq2online.util.Util;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.text.translation.I18n;
 
 @APIVersion(26)
@@ -35,6 +36,7 @@ public class ScriptActionGetItemInfo extends ScriptAction {
         int itemcount = item.getCount();
         String itemdisplay = item.getDisplayName();
         int datavar = item.getMetadata();
+        String nbt = item.getTagCompound().toString();
 
         /* here we are storing all of this information into player defined variables.
          */
@@ -43,6 +45,8 @@ public class ScriptActionGetItemInfo extends ScriptAction {
         provider.setVariable(macro,params[2],itemcount);
         provider.setVariable(macro,params[3],datavar);
         provider.setVariable(macro,params[4],itemdisplay);
+        // idk what this last one does but i think its to get nbt
+        provider.setVariable(macro,params[5],nbt);
         return null;
     }
     @Override

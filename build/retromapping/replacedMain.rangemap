@@ -1,7 +1,7 @@
 Unsupposrted library path: D:\extraActions\build\classes\java\api
 Unsupposrted library path: D:\extraActions\build\resources\api
 Symbol range map extraction starting
-Processing 3 files
+Processing 4 files
 startProcessing "com/itzblaze/ScriptActionGetGuiName.java" md5: 7598b18c6a503de598d7e613bed1a11b
 @|com/itzblaze/ScriptActionGetGuiName.java|8|20|com.itzblaze|package|com.itzblaze|(file)
 Class Start: com.itzblaze.ScriptActionGetGuiName
@@ -131,6 +131,61 @@ Class Start: com.itzblaze.ScriptActionGetItemInfo
    Method End: onInit()V
 Class End  : com.itzblaze.ScriptActionGetItemInfo
 endProcessing "com/itzblaze/ScriptActionGetItemInfo.java"
+
+startProcessing "com/itzblaze/ScriptActionInvFull.java" md5: 7fd224030a08d4037df0bc7b982f0c8a
+    Compile Error! Pb(390) The import javafx cannot be resolved
+@|com/itzblaze/ScriptActionInvFull.java|8|20|com.itzblaze|package|com.itzblaze|(file)
+Class Start: com.itzblaze.ScriptActionInvFull
+   @|com/itzblaze/ScriptActionInvFull.java|844|854|APIVersion|class|net.eq2online.macros.scripting.api.APIVersion|false
+   @|com/itzblaze/ScriptActionInvFull.java|873|892|ScriptActionInvFull|class|com.itzblaze.ScriptActionInvFull|false
+   @|com/itzblaze/ScriptActionInvFull.java|901|913|ScriptAction|class|net.eq2online.macros.scripting.parser.ScriptAction|false
+   Method Start: ScriptActionInvFull()V
+      @|com/itzblaze/ScriptActionInvFull.java|929|948|ScriptActionInvFull|method|com.itzblaze.ScriptActionInvFull|ScriptActionInvFull|()V
+      @|com/itzblaze/ScriptActionInvFull.java|968|981|ScriptContext|class|net.eq2online.macros.scripting.parser.ScriptContext|false
+      @|com/itzblaze/ScriptActionInvFull.java|982|986|MAIN|field|net.eq2online.macros.scripting.parser.ScriptContext|MAIN
+   Method End: ScriptActionInvFull()V
+   Method Start: isThreadSafe()Z
+      @|com/itzblaze/ScriptActionInvFull.java|1013|1021|Override|class|java.lang.Override|false
+      @|com/itzblaze/ScriptActionInvFull.java|1042|1054|isThreadSafe|method|net.eq2online.macros.scripting.api.IScriptAction|isThreadSafe|()Z
+   Method End: isThreadSafe()Z
+   Method Start: execute(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;
+      @|com/itzblaze/ScriptActionInvFull.java|1144|1152|provider|param|com.itzblaze.ScriptActionInvFull|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|provider|0
+      @|com/itzblaze/ScriptActionInvFull.java|1161|1166|macro|param|com.itzblaze.ScriptActionInvFull|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|macro|1
+      @|com/itzblaze/ScriptActionInvFull.java|1181|1189|instance|param|com.itzblaze.ScriptActionInvFull|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|instance|2
+      @|com/itzblaze/ScriptActionInvFull.java|1198|1207|rawParams|param|com.itzblaze.ScriptActionInvFull|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|rawParams|3
+      @|com/itzblaze/ScriptActionInvFull.java|1218|1224|params|param|com.itzblaze.ScriptActionInvFull|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|params|4
+      @|com/itzblaze/ScriptActionInvFull.java|1101|1113|IReturnValue|class|net.eq2online.macros.scripting.api.IReturnValue|false
+      @|com/itzblaze/ScriptActionInvFull.java|1114|1121|execute|method|net.eq2online.macros.scripting.api.IScriptAction|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;
+      @|com/itzblaze/ScriptActionInvFull.java|1122|1143|IScriptActionProvider|class|net.eq2online.macros.scripting.api.IScriptActionProvider|false
+      @|com/itzblaze/ScriptActionInvFull.java|1154|1160|IMacro|class|net.eq2online.macros.scripting.api.IMacro|false
+      @|com/itzblaze/ScriptActionInvFull.java|1168|1180|IMacroAction|class|net.eq2online.macros.scripting.api.IMacroAction|false
+      @|com/itzblaze/ScriptActionInvFull.java|1191|1197|String|class|java.lang.String|false
+      @|com/itzblaze/ScriptActionInvFull.java|1209|1215|String|class|java.lang.String|false
+      @|com/itzblaze/ScriptActionInvFull.java|1237|1251|EntityPlayerSP|class|net.minecraft.client.entity.EntityPlayerSP|false
+      @|com/itzblaze/ScriptActionInvFull.java|1261|1273|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com/itzblaze/ScriptActionInvFull.java|1276|1282|player|field|net.minecraft.client.Minecraft|player
+      @|com/itzblaze/ScriptActionInvFull.java|1305|1314|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|com/itzblaze/ScriptActionInvFull.java|1315|1327|hasItemStack|method|net.minecraft.entity.player.InventoryPlayer|hasItemStack|(Lnet/minecraft/item/ItemStack;)Z
+      @|com/itzblaze/ScriptActionInvFull.java|1328|1337|ItemStack|class|net.minecraft.item.ItemStack|false
+      @|com/itzblaze/ScriptActionInvFull.java|1338|1343|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
+      @|com/itzblaze/ScriptActionInvFull.java|1361|1369|provider|param|com.itzblaze.ScriptActionInvFull|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|provider|0
+      @|com/itzblaze/ScriptActionInvFull.java|1370|1381|setVariable|method|net.eq2online.macros.scripting.api.IScriptActionProvider|setVariable|(Lnet/eq2online/macros/scripting/api/IMacro;Ljava/lang/String;Ljava/lang/String;)V
+      @|com/itzblaze/ScriptActionInvFull.java|1382|1387|macro|param|com.itzblaze.ScriptActionInvFull|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|macro|1
+      @|com/itzblaze/ScriptActionInvFull.java|1388|1394|params|param|com.itzblaze.ScriptActionInvFull|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|params|4
+      @|com/itzblaze/ScriptActionInvFull.java|1441|1449|provider|param|com.itzblaze.ScriptActionInvFull|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|provider|0
+      @|com/itzblaze/ScriptActionInvFull.java|1450|1461|setVariable|method|net.eq2online.macros.scripting.api.IScriptActionProvider|setVariable|(Lnet/eq2online/macros/scripting/api/IMacro;Ljava/lang/String;Ljava/lang/String;)V
+      @|com/itzblaze/ScriptActionInvFull.java|1462|1467|macro|param|com.itzblaze.ScriptActionInvFull|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|macro|1
+      @|com/itzblaze/ScriptActionInvFull.java|1468|1474|params|param|com.itzblaze.ScriptActionInvFull|execute|(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;|params|4
+   Method End: execute(Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;Lnet/eq2online/macros/scripting/api/IMacroAction;Ljava/lang/String;[Ljava/lang/String;)Lnet/eq2online/macros/scripting/api/IReturnValue;
+   Method Start: onInit()V
+      @|com/itzblaze/ScriptActionInvFull.java|1536|1544|Override|class|java.lang.Override|false
+      @|com/itzblaze/ScriptActionInvFull.java|1562|1568|onInit|method|net.eq2online.macros.scripting.api.IMacrosAPIModule|onInit|()V
+      @|com/itzblaze/ScriptActionInvFull.java|1589|1596|context|field|net.eq2online.macros.scripting.ScriptActionBase|context
+      @|com/itzblaze/ScriptActionInvFull.java|1597|1604|getCore|method|net.eq2online.macros.scripting.parser.ScriptContext|getCore|()Lnet/eq2online/macros/scripting/parser/ScriptCore;
+      @|com/itzblaze/ScriptActionInvFull.java|1607|1627|registerScriptAction|method|net.eq2online.macros.scripting.parser.ScriptCore|registerScriptAction|(Lnet/eq2online/macros/scripting/api/IScriptAction;)V
+   Method End: onInit()V
+Class End  : com.itzblaze.ScriptActionInvFull
+endProcessing "com/itzblaze/ScriptActionInvFull.java"
 
 startProcessing "com/itzblaze/VariableProviderEnabled.java" md5: a217be7a807f4fec7c03d3000a896b00
 @|com/itzblaze/VariableProviderEnabled.java|8|20|com.itzblaze|package|com.itzblaze|(file)

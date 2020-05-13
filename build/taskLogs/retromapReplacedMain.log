@@ -1,4 +1,4 @@
-Processing 3 files
+Processing 4 files
 Start Processing: com/itzblaze/ScriptActionGetGuiName.java
 FOUND CONSTR method com/itzblaze/ScriptActionGetGuiName/ScriptActionGetGuiName ()V com/itzblaze/ScriptActionGetGuiName
 Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1118,1130]::getMinecraft->func_71410_x
@@ -45,6 +45,31 @@ Import: net.minecraft.item.Item
 Import: net.minecraft.item.ItemStack
 Import: net.minecraft.util.text.translation.I18n
 End  Processing: com/itzblaze/ScriptActionGetItemInfo.java
+
+Start Processing: com/itzblaze/ScriptActionInvFull.java
+FOUND CONSTR method com/itzblaze/ScriptActionInvFull/ScriptActionInvFull ()V com/itzblaze/ScriptActionInvFull
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1261,1273]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[1276,1282]::player->field_71439_g
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[1312,1321]::inventory->field_71071_by
+Rename method net/minecraft/entity/player/InventoryPlayer/hasItemStack (Lnet/minecraft/item/ItemStack;)Z[1327,1339]::hasItemStack->func_70431_c
+Rename field net/minecraft/item/ItemStack/EMPTY[1350,1355]::EMPTY->field_190927_a
+Import: javafx.util.Pair
+Import: net.eq2online.macros.scripting.api.*
+Import: net.eq2online.macros.scripting.parser.ScriptAction
+Import: net.eq2online.macros.scripting.parser.ScriptContext
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.client.entity.EntityPlayerSP
+Import: net.minecraft.client.gui.GuiScreen
+Import: net.minecraft.client.gui.inventory.GuiContainer
+Import: net.minecraft.entity.player.InventoryPlayer
+Import: net.minecraft.inventory.ContainerChest
+Import: net.minecraft.inventory.IInventory
+Import: net.minecraft.inventory.InventoryHelper
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.util.text.ITextComponent
+Import: paulscode.sound.IStreamListener
+End  Processing: com/itzblaze/ScriptActionInvFull.java
 
 Start Processing: com/itzblaze/VariableProviderEnabled.java
 Import: net.eq2online.macros.scripting.api.APIVersion

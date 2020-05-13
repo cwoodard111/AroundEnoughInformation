@@ -1,12 +1,16 @@
 Unsupposrted library path: D:\extraActions\build\classes\java\api
 Unsupposrted library path: D:\extraActions\build\resources\api
 Symbol range map extraction starting
-Processing 3 files
+Processing 4 files
 startProcessing "com/itzblaze/ScriptActionGetGuiName.java" md5: 7598b18c6a503de598d7e613bed1a11b
 endProcessing "com/itzblaze/ScriptActionGetGuiName.java"
 
 startProcessing "com/itzblaze/ScriptActionGetItemInfo.java" md5: ca344569aeeb6be485439d0e9413d35a
 endProcessing "com/itzblaze/ScriptActionGetItemInfo.java"
+
+startProcessing "com/itzblaze/ScriptActionInvFull.java" md5: 7fd224030a08d4037df0bc7b982f0c8a
+    Compile Error! Pb(390) The import javafx cannot be resolved
+endProcessing "com/itzblaze/ScriptActionInvFull.java"
 
 startProcessing "com/itzblaze/VariableProviderEnabled.java" md5: a217be7a807f4fec7c03d3000a896b00
 endProcessing "com/itzblaze/VariableProviderEnabled.java"
