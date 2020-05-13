@@ -4,14 +4,14 @@
 
 <h3>Actions</h3>
 
-><p>GETITEMINFO(slot,<[&idvar],[#stacksize],[#datavar],[&display]>)</p>
+><p>GETITEMINFO([slot],<&idvar>,<#stacksize>,<#datavar>,<&display>)</p>
 >gets information about the specified slot.
 >
 
->GETGUINAME(&name)
+>GETGUINAME([&name])
 gets the display name of the current GUI.
 
->INVFULL(&boolean-string)
+>INVFULL([&boolean-string])
 returns "empty" or "full" in the string defined.
 >
 <h3>Variables</h3>
