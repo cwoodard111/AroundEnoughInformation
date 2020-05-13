@@ -16,5 +16,5 @@ returns "empty" or "full" in the string defined.
 >
 <h3>Variables</h3>
 
->%AEI%
+>%MOUDLEAEI%
 >boolean if module successfully loaded.
