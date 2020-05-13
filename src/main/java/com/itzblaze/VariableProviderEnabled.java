@@ -13,7 +13,7 @@ public class VariableProviderEnabled extends VariableCache {
     }
 
     public void onInit() {
-        storeVariable("AEI",true);
+        storeVariable("MODULEAEI",true);
         ScriptContext.MAIN.getCore().registerVariableProvider((IVariableProvider)this);
     }
 }
