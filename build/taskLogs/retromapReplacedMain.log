@@ -24,11 +24,12 @@ End  Processing: com/itzblaze/ScriptActionGetGuiName.java
 
 Start Processing: com/itzblaze/ScriptActionGetItemInfo.java
 FOUND CONSTR method com/itzblaze/ScriptActionGetItemInfo/ScriptActionGetItemInfo ()V com/itzblaze/ScriptActionGetItemInfo
-Rename method net/minecraft/item/ItemStack/getUnlocalizedName ()Ljava/lang/String;[1453,1471]::getUnlocalizedName->func_77977_a
-Rename method net/minecraft/util/text/translation/I18n/translateToLocal (Ljava/lang/String;)Ljava/lang/String;[1501,1517]::translateToLocal->func_74838_a
-Rename method net/minecraft/item/ItemStack/getCount ()I[1572,1580]::getCount->func_190916_E
-Rename method net/minecraft/item/ItemStack/getDisplayName ()Ljava/lang/String;[1624,1638]::getDisplayName->func_82833_r
-Rename method net/minecraft/item/ItemStack/getMetadata ()I[1668,1679]::getMetadata->func_77960_j
+Rename method net/minecraft/item/ItemStack/getUnlocalizedName ()Ljava/lang/String;[1495,1513]::getUnlocalizedName->func_77977_a
+Rename method net/minecraft/util/text/translation/I18n/translateToLocal (Ljava/lang/String;)Ljava/lang/String;[1543,1559]::translateToLocal->func_74838_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[1614,1622]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/getDisplayName ()Ljava/lang/String;[1666,1680]::getDisplayName->func_82833_r
+Rename method net/minecraft/item/ItemStack/getMetadata ()I[1710,1721]::getMetadata->func_77960_j
+Rename method net/minecraft/item/ItemStack/getTagCompound ()Lnet/minecraft/nbt/NBTTagCompound;[1753,1767]::getTagCompound->func_77978_p
 Import: baritone.BaritoneProvider
 Import: baritone.api.BaritoneAPI
 Import: baritone.api.pathing.goals.*
@@ -43,32 +44,22 @@ Import: net.eq2online.macros.scripting.parser.ScriptContext
 Import: net.eq2online.util.Util
 Import: net.minecraft.item.Item
 Import: net.minecraft.item.ItemStack
+Import: net.minecraft.nbt.NBTTagCompound
 Import: net.minecraft.util.text.translation.I18n
 End  Processing: com/itzblaze/ScriptActionGetItemInfo.java
 
 Start Processing: com/itzblaze/ScriptActionInvFull.java
 FOUND CONSTR method com/itzblaze/ScriptActionInvFull/ScriptActionInvFull ()V com/itzblaze/ScriptActionInvFull
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1261,1273]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/player[1276,1282]::player->field_71439_g
-Rename field net/minecraft/entity/player/EntityPlayer/inventory[1312,1321]::inventory->field_71071_by
-Rename method net/minecraft/entity/player/InventoryPlayer/hasItemStack (Lnet/minecraft/item/ItemStack;)Z[1327,1339]::hasItemStack->func_70431_c
-Rename field net/minecraft/item/ItemStack/EMPTY[1350,1355]::EMPTY->field_190927_a
-Import: javafx.util.Pair
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[748,760]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[763,769]::player->field_71439_g
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[777,786]::inventory->field_71071_by
+Rename field net/minecraft/entity/player/InventoryPlayer/mainInventory[817,830]::mainInventory->field_70462_a
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[864,871]::isEmpty->func_190926_b
 Import: net.eq2online.macros.scripting.api.*
 Import: net.eq2online.macros.scripting.parser.ScriptAction
 Import: net.eq2online.macros.scripting.parser.ScriptContext
-Import: net.minecraft.block.material.Material
 Import: net.minecraft.client.Minecraft
-Import: net.minecraft.client.entity.EntityPlayerSP
-Import: net.minecraft.client.gui.GuiScreen
-Import: net.minecraft.client.gui.inventory.GuiContainer
 Import: net.minecraft.entity.player.InventoryPlayer
-Import: net.minecraft.inventory.ContainerChest
-Import: net.minecraft.inventory.IInventory
-Import: net.minecraft.inventory.InventoryHelper
-Import: net.minecraft.item.ItemStack
-Import: net.minecraft.util.text.ITextComponent
-Import: paulscode.sound.IStreamListener
 End  Processing: com/itzblaze/ScriptActionInvFull.java
 
 Start Processing: com/itzblaze/VariableProviderEnabled.java
