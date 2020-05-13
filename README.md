@@ -4,15 +4,17 @@
 
 <h3>Actions</h3>
 
-GETITEMINFO(slot,[&idvar],[#stacksize],[#datavar],[&display])
-gets information about the specified slot.
+><p>GETITEMINFO(slot,<[&idvar],[#stacksize],[#datavar],[&display]>)</p>
+>gets information about the specified slot.
+>
 
-GETGUINAME(&name)
+>GETGUINAME(&name)
 gets the display name of the current GUI.
 
-INVFULL(&boolean-string)
+>INVFULL(&boolean-string)
 returns "empty" or "full" in the string defined.
+>
 <h3>Variables</h3>
 
-%AEI%
-boolean if module successfully loaded.
+>%AEI%
+>boolean if module successfully loaded.
