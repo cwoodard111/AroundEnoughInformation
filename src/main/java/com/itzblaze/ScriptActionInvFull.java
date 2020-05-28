@@ -16,14 +16,13 @@ public class ScriptActionInvFull extends ScriptAction {
 
             return false;
         }
-    public IReturnValue execute(IScriptActionProvider provider, IMacro macro, IMacroAction instance, String rawParams, String[] params) {
+    public boolean executeConditional(IScriptActionProvider provider, IMacro macro, IMacroAction instance, String rawParams, String[] params) {
         InventoryPlayer playerinv = Minecraft.getMinecraft().player.inventory;
         if (!playerinv.mainInventory.stream().anyMatch(stack -> stack.isEmpty())) {
-            provider.setVariable(macro,params[0],"full");
+            return true;
         } else {
-            provider.setVariable(macro,params[0],"empty");
+           return false;
         }
-        return null;
     }
     public void onInit() {
 

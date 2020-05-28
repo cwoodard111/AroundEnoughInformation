@@ -28,19 +28,30 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/itzblaze/ScriptActionGetGuiName.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/itzblaze/ScriptActionGetGuiName.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/itzblaze/ScriptActionGetItemInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/itzblaze/ScriptActionGetItemInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/itzblaze/VariableProviderEnabled.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/itzblaze/VariableProviderEnabled.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/retromapping/replacedMain.rangemap" beforeDir="false" afterPath="$PROJECT_DIR$/build/retromapping/replacedMain.rangemap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/retromapping/retromappedReplacedMain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/retromapping/retromappedReplacedMain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sources/main/java/com/itzblaze/ScriptActionGetGuiName.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/sources/main/java/com/itzblaze/ScriptActionGetGuiName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/sources/main/java/com/itzblaze/ScriptActionGetItemInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/sources/main/java/com/itzblaze/ScriptActionGetItemInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sources/main/java/com/itzblaze/VariableProviderEnabled.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/sources/main/java/com/itzblaze/VariableProviderEnabled.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/taskLogs/extractRangemapReplacedMain.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/taskLogs/extractRangemapReplacedMain.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/taskLogs/retromapReplacedMain.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/taskLogs/retromapReplacedMain.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itzblaze/ScriptActionGetGuiName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itzblaze/ScriptActionGetGuiName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itzblaze/ScriptActionGetItemInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itzblaze/ScriptActionGetItemInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itzblaze/ScriptActionInvFull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itzblaze/ScriptActionInvFull.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -71,6 +82,11 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="extraActions" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -88,25 +104,125 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="ProjectId" id="1bBLHMa2qdKcx4fzYPbktDSm7RT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="findjar.last.used.dir" value="$USER_HOME$/Desktop/mod_macros_0.15.4_for_1.12.1.jar.src" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.ExampleModule [build]">
-    <configuration name="ExampleModule [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.extraActions [build]">
+    <configuration name="Unnamed" type="AntRunConfiguration" nameIsGenerated="true">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itzblaze.ConnectionFactory" />
+      <module name="extraActions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itzblaze.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpClientExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itzblaze.HttpClientExample" />
+      <module name="extraActions.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itzblaze.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpClientExample" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itzblaze.HttpClientExample" />
+      <module name="extraActions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itzblaze.JavaTest" />
+      <module name="extraActions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed (2)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itzblaze.JavaGetFileSize" />
+      <module name="extraActions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed (3)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itzblaze.testAPI" />
+      <module name="extraActions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itzblaze.Testwer" />
+      <module name="extraActions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itzblaze.example" />
+      <module name="extraActions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.itzblaze.test" />
+      <module name="extraActions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itzblaze.test" />
+      <module name="extraActions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="CompoundRunConfigurationType">
+      <method v="2" />
+    </configuration>
+    <configuration name="extraActions [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -125,7 +241,26 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ExampleModule [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="extraActions [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="extraActions [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,70 +279,30 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ExampleModule [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runClient" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ExampleModule [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="wrapper" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="extraActions [javadoc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="javadoc" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Ant Target.Unnamed" />
+      <item itemvalue="Application.Unnamed (3)" />
+      <item itemvalue="Application.Unnamed (2)" />
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.HttpClientExample" />
+      <item itemvalue="Application.example" />
+      <item itemvalue="Application.Unnamed (1)" />
+      <item itemvalue="Application.JavaTest" />
+      <item itemvalue="Application.HttpClientExample (1)" />
+      <item itemvalue="Application.ConnectionFactory" />
+      <item itemvalue="Compound.Unnamed" />
+      <item itemvalue="Gradle.extraActions [buildDependents]" />
+      <item itemvalue="Gradle.extraActions [build]" />
+      <item itemvalue="Gradle.extraActions [assemble]" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.extraActions [javadoc]" />
-        <item itemvalue="Gradle.ExampleModule [runClient]" />
-        <item itemvalue="Gradle.ExampleModule [wrapper]" />
-        <item itemvalue="Gradle.ExampleModule [assemble]" />
-        <item itemvalue="Gradle.ExampleModule [build]" />
+        <item itemvalue="Gradle.extraActions [build]" />
+        <item itemvalue="Gradle.extraActions [assemble]" />
+        <item itemvalue="Application.ConnectionFactory" />
+        <item itemvalue="Gradle.extraActions [buildDependents]" />
+        <item itemvalue="Application.HttpClientExample (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +407,42 @@
       <option name="project" value="LOCAL" />
       <updated>1589385092464</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added ScriptActionInvFull.java">
+      <created>1589385118576</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589385118576</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added invfull guide">
+      <created>1589385499503</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589385499503</updated>
+    </task>
+    <task id="LOCAL-00014" summary="changed format of README.md">
+      <created>1589391224134</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589391224134</updated>
+    </task>
+    <task id="LOCAL-00015" summary="typo">
+      <created>1589391321316</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589391321316</updated>
+    </task>
+    <task id="LOCAL-00016" summary="changed variable name">
+      <created>1589391904642</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589391904642</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,68 +470,124 @@
     <MESSAGE value="changed name to aroundenoughinformation" />
     <MESSAGE value="added &quot;nbt&quot;, not quite sure if its actually nbt but it might be" />
     <MESSAGE value="added ScriptActionInvFull.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ScriptActionInvFull.java" />
+    <MESSAGE value="added invfull guide" />
+    <MESSAGE value="changed format of README.md" />
+    <MESSAGE value="typo" />
+    <MESSAGE value="changed variable name" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed variable name" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="147" key="#ExampleModule_[runClient]" timestamp="1588192175824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="147" key="#ExampleModule_[runClient]/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588192175824" />
-    <state x="440" y="94" key="#Project_Structure" timestamp="1589321829737">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1589674486369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589321829737" />
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1589323564242">
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589674486369" />
+    <state x="1083" y="200" key="#Unnamed" timestamp="1589583109392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589323564242" />
+    <state x="1083" y="200" key="#Unnamed/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589583109392" />
+    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1590433212634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590433212634" />
+    <state x="583" y="350" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589764586681">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="350" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589764586681" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1590357530772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590357530772" />
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588100572945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588100572945" />
-    <state x="756" y="405" width="412" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588209032967">
+    <state x="756" y="405" width="433" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590352485966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="756" y="405" width="412" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588209032967" />
-    <state x="824" y="123" key="CommitChangelistDialog2" timestamp="1589385090590">
+    <state x="756" y="405" width="433" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590352485966" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589592531657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="824" y="123" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589385090590" />
-    <state x="761" y="342" key="FileChooserDialogImpl" timestamp="1588185485880">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589592531657" />
+    <state x="824" y="123" key="CommitChangelistDialog2" timestamp="1589391903006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="342" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588185485880" />
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1589384492434">
+    <state x="824" y="123" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589391903006" />
+    <state x="761" y="342" key="FileChooserDialogImpl" timestamp="1589765279179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589384492434" />
-    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1589384492434">
+    <state x="761" y="342" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589765279179" />
+    <state width="1877" height="210" key="GridCell.Tab.0.bottom" timestamp="1590703368679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589384492434" />
-    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1589384492433">
+    <state width="1877" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590703368679" />
+    <state width="1877" height="181" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589661416400" />
+    <state width="1877" height="210" key="GridCell.Tab.0.center" timestamp="1590703368679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589384492433" />
-    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1589384492434">
+    <state width="1877" height="210" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590703368679" />
+    <state width="1877" height="181" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589661416400" />
+    <state width="1877" height="210" key="GridCell.Tab.0.left" timestamp="1590703368678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589384492434" />
-    <state x="712" y="240" key="RollbackChangesDialog" timestamp="1589321654718">
+    <state width="1877" height="210" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590703368678" />
+    <state width="1877" height="181" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589661416400" />
+    <state width="1877" height="210" key="GridCell.Tab.0.right" timestamp="1590703368679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="712" y="240" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589321654718" />
-    <state x="528" y="155" key="SettingsEditor" timestamp="1589309515650">
+    <state width="1877" height="210" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590703368679" />
+    <state width="1877" height="181" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1589661416400" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1589663368028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="528" y="155" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589309515650" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589663368028" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1589663368028">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589663368028" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1589663368028">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589663368028" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1589663368028">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589663368028" />
+    <state x="712" y="240" key="RollbackChangesDialog" timestamp="1589663889583">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="712" y="240" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589663889583" />
+    <state x="528" y="155" key="SettingsEditor" timestamp="1589765292082">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="528" y="155" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589765292082" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1590514024059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590514024059" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1588192224620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588192224620" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589335402526">
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1589670725775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589335402526" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589670725775" />
+    <state x="342" y="130" key="new project wizard" timestamp="1589761526524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="130" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589761526524" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1590525100887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590525100887" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590521006312">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590521006312" />
   </component>
 </project>

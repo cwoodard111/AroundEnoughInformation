@@ -1,20 +1,9 @@
 package com.itzblaze;
 
-import baritone.BaritoneProvider;
-import baritone.api.BaritoneAPI;
-import baritone.api.pathing.goals.*;
-import net.eq2online.macros.core.settings.Setting;
-import net.eq2online.macros.scripting.api.APIVersion;
-import net.eq2online.macros.scripting.api.IMacro;
-import net.eq2online.macros.scripting.api.IMacroAction;
-import net.eq2online.macros.scripting.api.IReturnValue;
-import net.eq2online.macros.scripting.api.IScriptActionProvider;
+import net.eq2online.macros.scripting.api.*;
 import net.eq2online.macros.scripting.parser.ScriptAction;
 import net.eq2online.macros.scripting.parser.ScriptContext;
-import net.eq2online.util.Util;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.text.translation.I18n;
 
 @APIVersion(26)
@@ -28,6 +17,7 @@ public class ScriptActionGetItemInfo extends ScriptAction {
         return false;
     }
     public IReturnValue execute(IScriptActionProvider provider, IMacro macro, IMacroAction instance, String rawParams, String[] params) {
+    try {
         String expansion = provider.expand(macro,params[0],true);
         int expansionInt = Integer.parseInt(expansion);
         ItemStack item = slotHelper.getSlotStack(expansionInt);
@@ -36,7 +26,6 @@ public class ScriptActionGetItemInfo extends ScriptAction {
         int itemcount = item.getCount();
         String itemdisplay = item.getDisplayName();
         int datavar = item.getMetadata();
-        String nbt = item.getTagCompound().toString();
 
         /* here we are storing all of this information into player defined variables.
          */
@@ -46,7 +35,9 @@ public class ScriptActionGetItemInfo extends ScriptAction {
         provider.setVariable(macro,params[3],datavar);
         provider.setVariable(macro,params[4],itemdisplay);
         // idk what this last one does but i think its to get nbt
-        provider.setVariable(macro,params[5],nbt);
+    } catch (NullPointerException e) {
+        e.printStackTrace();
+    }
         return null;
     }
     @Override

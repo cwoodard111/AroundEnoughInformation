@@ -1,66 +1,65 @@
-Processing 4 files
+Processing 5 files
 Start Processing: com/itzblaze/ScriptActionGetGuiName.java
 FOUND CONSTR method com/itzblaze/ScriptActionGetGuiName/ScriptActionGetGuiName ()V com/itzblaze/ScriptActionGetGuiName
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1118,1130]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/player[1133,1139]::player->field_71439_g
-Rename field net/minecraft/entity/player/EntityPlayer/openContainer[1168,1181]::openContainer->field_71070_bA
-Rename field net/minecraft/entity/player/EntityPlayer/openContainer[1271,1284]::openContainer->field_71070_bA
-Rename method net/minecraft/inventory/ContainerChest/getLowerChestInventory ()Lnet/minecraft/inventory/IInventory;[1323,1345]::getLowerChestInventory->func_85151_d
-Rename method net/minecraft/world/IWorldNameable/getDisplayName ()Lnet/minecraft/util/text/ITextComponent;[1375,1389]::getDisplayName->func_145748_c_
-Rename method net/minecraft/util/text/ITextComponent/getFormattedText ()Ljava/lang/String;[1392,1408]::getFormattedText->func_150254_d
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[846,858]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[861,867]::player->field_71439_g
+Rename field net/minecraft/entity/player/EntityPlayer/openContainer[900,913]::openContainer->field_71070_bA
+Rename field net/minecraft/entity/player/EntityPlayer/openContainer[1008,1021]::openContainer->field_71070_bA
+Rename method net/minecraft/inventory/ContainerChest/getLowerChestInventory ()Lnet/minecraft/inventory/IInventory;[1064,1086]::getLowerChestInventory->func_85151_d
+Rename method net/minecraft/world/IWorldNameable/getDisplayName ()Lnet/minecraft/util/text/ITextComponent;[1120,1134]::getDisplayName->func_145748_c_
+Rename method net/minecraft/util/text/ITextComponent/getFormattedText ()Ljava/lang/String;[1137,1153]::getFormattedText->func_150254_d
 Import: net.eq2online.macros.scripting.api.*
 Import: net.eq2online.macros.scripting.parser.ScriptAction
 Import: net.eq2online.macros.scripting.parser.ScriptContext
-Import: net.minecraft.client.Minecraft
 Import: net.minecraft.client.entity.EntityPlayerSP
-Import: net.minecraft.client.gui.GuiScreen
-Import: net.minecraft.client.gui.inventory.GuiContainer
-Import: net.minecraft.entity.player.InventoryPlayer
 Import: net.minecraft.inventory.ContainerChest
 Import: net.minecraft.inventory.IInventory
-Import: net.minecraft.inventory.InventoryHelper
-Import: net.minecraft.util.text.ITextComponent
 End  Processing: com/itzblaze/ScriptActionGetGuiName.java
 
 Start Processing: com/itzblaze/ScriptActionGetItemInfo.java
 FOUND CONSTR method com/itzblaze/ScriptActionGetItemInfo/ScriptActionGetItemInfo ()V com/itzblaze/ScriptActionGetItemInfo
-Rename method net/minecraft/item/ItemStack/getUnlocalizedName ()Ljava/lang/String;[1495,1513]::getUnlocalizedName->func_77977_a
-Rename method net/minecraft/util/text/translation/I18n/translateToLocal (Ljava/lang/String;)Ljava/lang/String;[1543,1559]::translateToLocal->func_74838_a
-Rename method net/minecraft/item/ItemStack/getCount ()I[1614,1622]::getCount->func_190916_E
-Rename method net/minecraft/item/ItemStack/getDisplayName ()Ljava/lang/String;[1666,1680]::getDisplayName->func_82833_r
-Rename method net/minecraft/item/ItemStack/getMetadata ()I[1710,1721]::getMetadata->func_77960_j
-Rename method net/minecraft/item/ItemStack/getTagCompound ()Lnet/minecraft/nbt/NBTTagCompound;[1753,1767]::getTagCompound->func_77978_p
-Import: baritone.BaritoneProvider
-Import: baritone.api.BaritoneAPI
-Import: baritone.api.pathing.goals.*
-Import: net.eq2online.macros.core.settings.Setting
-Import: net.eq2online.macros.scripting.api.APIVersion
-Import: net.eq2online.macros.scripting.api.IMacro
-Import: net.eq2online.macros.scripting.api.IMacroAction
-Import: net.eq2online.macros.scripting.api.IReturnValue
-Import: net.eq2online.macros.scripting.api.IScriptActionProvider
+Rename method net/minecraft/item/ItemStack/getUnlocalizedName ()Ljava/lang/String;[999,1017]::getUnlocalizedName->func_77977_a
+Rename method net/minecraft/util/text/translation/I18n/translateToLocal (Ljava/lang/String;)Ljava/lang/String;[1047,1063]::translateToLocal->func_74838_a
+Rename method net/minecraft/item/ItemStack/getCount ()I[1118,1126]::getCount->func_190916_E
+Rename method net/minecraft/item/ItemStack/getDisplayName ()Ljava/lang/String;[1170,1184]::getDisplayName->func_82833_r
+Rename method net/minecraft/item/ItemStack/getMetadata ()I[1214,1225]::getMetadata->func_77960_j
+Import: net.eq2online.macros.scripting.api.*
 Import: net.eq2online.macros.scripting.parser.ScriptAction
 Import: net.eq2online.macros.scripting.parser.ScriptContext
-Import: net.eq2online.util.Util
-Import: net.minecraft.item.Item
 Import: net.minecraft.item.ItemStack
-Import: net.minecraft.nbt.NBTTagCompound
 Import: net.minecraft.util.text.translation.I18n
 End  Processing: com/itzblaze/ScriptActionGetItemInfo.java
 
 Start Processing: com/itzblaze/ScriptActionInvFull.java
 FOUND CONSTR method com/itzblaze/ScriptActionInvFull/ScriptActionInvFull ()V com/itzblaze/ScriptActionInvFull
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[748,760]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/player[763,769]::player->field_71439_g
-Rename field net/minecraft/entity/player/EntityPlayer/inventory[777,786]::inventory->field_71071_by
-Rename field net/minecraft/entity/player/InventoryPlayer/mainInventory[817,830]::mainInventory->field_70462_a
-Rename method net/minecraft/item/ItemStack/isEmpty ()Z[864,871]::isEmpty->func_190926_b
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[754,766]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[769,775]::player->field_71439_g
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[783,792]::inventory->field_71071_by
+Rename field net/minecraft/entity/player/InventoryPlayer/mainInventory[823,836]::mainInventory->field_70462_a
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[870,877]::isEmpty->func_190926_b
 Import: net.eq2online.macros.scripting.api.*
 Import: net.eq2online.macros.scripting.parser.ScriptAction
 Import: net.eq2online.macros.scripting.parser.ScriptContext
 Import: net.minecraft.client.Minecraft
 Import: net.minecraft.entity.player.InventoryPlayer
 End  Processing: com/itzblaze/ScriptActionInvFull.java
+
+Start Processing: com/itzblaze/ScriptedIteratorTeams.java
+FOUND CONSTR method com/itzblaze/ScriptedIteratorTeams/ScriptedIteratorTeams (Lnet/eq2online/macros/scripting/api/IScriptActionProvider;Lnet/eq2online/macros/scripting/api/IMacro;)V com/itzblaze/ScriptedIteratorTeams
+Rename field net/minecraft/client/Minecraft/world[729,734]::world->field_71441_e
+Rename method net/minecraft/world/World/getScoreboard ()Lnet/minecraft/scoreboard/Scoreboard;[743,756]::getScoreboard->func_96441_U
+Rename method net/minecraft/scoreboard/Scoreboard/getTeams ()Ljava/util/Collection;[758,766]::getTeams->func_96525_g
+Rename method net/minecraft/scoreboard/ScorePlayerTeam/getPrefix ()Ljava/lang/String;[883,892]::getPrefix->func_96668_e
+Rename method net/minecraft/scoreboard/ScorePlayerTeam/getSuffix ()Ljava/lang/String;[949,958]::getSuffix->func_96663_f
+Import: net.eq2online.macros.scripting.ScriptedIterator
+Import: net.eq2online.macros.scripting.api.APIVersion
+Import: net.eq2online.macros.scripting.api.IMacro
+Import: net.eq2online.macros.scripting.api.IScriptActionProvider
+Import: net.eq2online.macros.scripting.parser.ScriptContext
+Import: net.minecraft.scoreboard.ScorePlayerTeam
+Adding 1 imports
+        java.util.Iterator
+End  Processing: com/itzblaze/ScriptedIteratorTeams.java
 
 Start Processing: com/itzblaze/VariableProviderEnabled.java
 Import: net.eq2online.macros.scripting.api.APIVersion

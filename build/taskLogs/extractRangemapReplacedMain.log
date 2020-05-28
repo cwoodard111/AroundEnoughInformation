@@ -1,16 +1,19 @@
-Unsupposrted library path: D:\extraActions\build\classes\java\api
-Unsupposrted library path: D:\extraActions\build\resources\api
+Unsupposrted library path: D:\AEI\extraActions\build\classes\java\api
+Unsupposrted library path: D:\AEI\extraActions\build\resources\api
 Symbol range map extraction starting
-Processing 4 files
-startProcessing "com/itzblaze/ScriptActionGetGuiName.java" md5: 7598b18c6a503de598d7e613bed1a11b
+Processing 5 files
+startProcessing "com/itzblaze/ScriptActionGetGuiName.java" md5: 734fc96245479d47093cd5620b85320f
 endProcessing "com/itzblaze/ScriptActionGetGuiName.java"
 
-startProcessing "com/itzblaze/ScriptActionGetItemInfo.java" md5: e22def2505d53b97bc780aa120818f8f
+startProcessing "com/itzblaze/ScriptActionGetItemInfo.java" md5: e9d4b21b1ba6de2cf0d8f04b1dc063e5
 endProcessing "com/itzblaze/ScriptActionGetItemInfo.java"
 
-startProcessing "com/itzblaze/ScriptActionInvFull.java" md5: 0f0ec45b885c5836ad7a8d2ee6b5b649
+startProcessing "com/itzblaze/ScriptActionInvFull.java" md5: d9b21695602aff8aae1208da1d8a1941
 endProcessing "com/itzblaze/ScriptActionInvFull.java"
 
-startProcessing "com/itzblaze/VariableProviderEnabled.java" md5: a217be7a807f4fec7c03d3000a896b00
+startProcessing "com/itzblaze/ScriptedIteratorTeams.java" md5: c96b06b479eb0e295a5ad93fc6b41881
+endProcessing "com/itzblaze/ScriptedIteratorTeams.java"
+
+startProcessing "com/itzblaze/VariableProviderEnabled.java" md5: 7178da67dbadcb2db2171cf3fb14cf18
 endProcessing "com/itzblaze/VariableProviderEnabled.java"
 
