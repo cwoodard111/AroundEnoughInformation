@@ -4,7 +4,7 @@
 
 <h3>Actions</h3>
 
-><p>GETITEMINFO([slot],<&idvar>,<#stacksize>,<#datavar>,<&display>)</p>
+><p>GETITEMINFO([slot],<&idvar>,<#stacksize>,<#datavar>,<&display>,<&lore>)</p>
 >gets information about the specified slot.
 >
 
