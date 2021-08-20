@@ -11,8 +11,8 @@
 >GETGUINAME([&name])
 gets the display name of the current GUI.
 
->INVFULL([&boolean-string])
-returns "empty" or "full" in the string defined.
+>INVFULL;
+use as an if statement
 >
 <h3>Variables</h3>
 
